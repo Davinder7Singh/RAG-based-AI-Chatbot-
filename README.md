@@ -46,13 +46,13 @@ RAG BASED AI CHATBOT/<br>
 
 
 # Files Explained-
-1. embedding.py – Document Ingestion<br>
+**1. embedding.py – Document Ingestion<br>**
 * Loads the Agentic AI PDF
 * Splits text into semantic chunks
 * Generates embeddings using HuggingFace
 * Stores vectors locally using FAISS
 
-2. rag_graph.py-<br>
+**2. rag_graph.py-<br>**
 Implements a LangGraph workflow with:<br>
 * Retrieve node
 MMR-based vector search<br>
@@ -63,28 +63,28 @@ Strict context-only answering<br>
 No outside knowledge<br>
 Partial-answer summarization if applicable<br>
 
-3. app.py-<br>
+**3. app.py-<br>**
 Chat-style UI:<br>
 * User question
 * Grounded answer
 * Retrieved context chunks
 * Confidence score
  
-4.  .env-<br>
+**4. .env-<br>**
 * groq_api_key_here(Create a .env file in the projec)
 
 
 # How to Run the Project-
-* Create and Activate Virtual Environment<br>
+** Create and Activate Virtual Environment<br>**
     python -m venv .venv<br>
    .venv\Scripts\activate<br>
-*  Install Dependencies<br>
+**  Install Dependencies<br>**
   pip install -r requirements.txt<br>
-*  Run Once-<br>
+**  Run Once-<br>**
    embedding.py<br>
    rag_graph.py<br>
    app.py<br>
-* Start the Streamlit application:<br>
+** Start the Streamlit application:<br>**
   streamlit run app.py<br>
   The chatbot will open in your browser at http://localhost:8501<br>
    
