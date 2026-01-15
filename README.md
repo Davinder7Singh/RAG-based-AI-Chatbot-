@@ -75,16 +75,16 @@ Chat-style UI:<br>
 
 
 # How to Run the Project-
-**1Create and Activate Virtual Environment<br>**
+**1 Create and Activate Virtual Environment<br>**
     python -m venv .venv<br>
    .venv\Scripts\activate<br>
-**2Install Dependencies<br>**
+**2 Install Dependencies<br>**
   pip install -r requirements.txt<br>
-**3Run Once-<br>**
+**3 Run Once-<br>**
    embedding.py<br>
    rag_graph.py<br>
    app.py<br>
-**4Start the Streamlit application:<br>**
+**4 Start the Streamlit application:<br>**
   streamlit run app.py<br>
   The chatbot will open in your browser at http://localhost:8501<br>
    
