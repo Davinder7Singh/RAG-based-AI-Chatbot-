@@ -63,7 +63,7 @@ Strict context-only answering<br>
 No outside knowledge<br>
 Partial-answer summarization if applicable<br>
 
-** 3. app.py-<br>
+3. app.py-<br>
 Chat-style UI:<br>
 * User question
 * Grounded answer
