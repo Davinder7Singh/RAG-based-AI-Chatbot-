@@ -16,25 +16,25 @@ The chatbot is designed for academic and technical accuracy<br>
 # Architecture-
 
 PDF (Ebook-Agentic-AI.pdf)<br>
-↓
+↓<br>
 PDF Loader (PyPDFLoader)<br>
-↓
+↓<br>
 Text Chunking (RecursiveCharacterTextSplitter)<br>
-↓
+↓<br>
 Embeddings (sentence-transformers/all-MiniLM-L6-v2)<br>
-↓
+↓<br>
 FAISS Vector Store<br>
-↓
+↓<br>
 LangGraph (Retrieve → Generate)<br>
-↓
+↓<br>
 Groq LLM (llama-3.1-8b-instant)<br>
-↓
+↓<br>
 Streamlit Chat Interface<br>
 
 
 # Project Structure-
 RAG BASED AI CHATBOT/<br>
-│
+│<br>
 ├── Ebook-Agentic-AI.pdf # Source document<br>
 ├── embedding.py # PDF ingestion & FAISS index creation<br>
 ├── rag_graph.py # LangGraph RAG pipeline<br>
@@ -63,7 +63,7 @@ Strict context-only answering<br>
 No outside knowledge<br>
 Partial-answer summarization if applicable<br>
 
-3. app.py-<br>
+** 3. app.py-<br>
 Chat-style UI:<br>
 * User question
 * Grounded answer
